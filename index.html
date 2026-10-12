@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202735">
+  <meta name="description" content="大型併せの参加者一覧">
+  <title>参加者一覧</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="creator">
+      <span class="creator-label">Created by</span>
+      <strong id="creator-name">〇〇</strong>
+    </div>
+    <nav id="creator-links" class="creator-links" aria-label="制作者のXアカウント"></nav>
+  </header>
+
+  <main class="page">
+    <section class="event-hero" aria-labelledby="event-title">
+      <p class="eyebrow">COSPLAY MEETUP / PARTICIPANTS</p>
+      <h1 id="event-title">参加者一覧</h1>
+      <p id="event-date" class="event-date"></p>
+      <p id="event-name" class="event-name"></p>
+      <div id="summary" class="summary" aria-live="polite"></div>
+    </section>
+
+    <section class="directory" aria-label="参加者を探す">
+      <label class="search-label" for="search-input">参加者・キャラクター名で検索</label>
+      <div class="search-wrap">
+        <span aria-hidden="true" class="search-symbol">⌕</span>
+        <input id="search-input" type="search" placeholder="名前・読み・キャラクター名" autocomplete="off">
+        <button id="clear-search" class="clear-search" type="button" aria-label="検索をクリア" hidden>×</button>
+      </div>
+
+      <div id="role-filters" class="role-filters" aria-label="役割で絞り込み">
+        <button class="filter-button is-active" type="button" data-role="all">全員</button>
+        <button class="filter-button" type="button" data-role="cosplay">コスプレ</button>
+        <button class="filter-button" type="button" data-role="camera">カメラマン</button>
+        <button class="filter-button" type="button" data-role="assistant">アシスタント</button>
+      </div>
+
+      <div class="results-heading">
+        <h2>参加者</h2>
+        <p id="result-count" aria-live="polite"></p>
+      </div>
+      <div id="participant-list" class="participant-list" aria-live="polite"></div>
+      <p id="empty-state" class="empty-state" hidden>該当する参加者が見つかりませんでした。<br>検索語や絞り込み条件を変えてみてね。</p>
+      <p class="footer-note">参加者情報に誤りがある場合は、主催者までご連絡ください。</p>
+    </section>
+  </main>
+  <footer class="site-footer">COSPLAY MEETUP DIRECTORY</footer>
+  <script src="./script.js" defer></script>
+</body>
+</html>
