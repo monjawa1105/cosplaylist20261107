@@ -27,6 +27,18 @@ async function loadJson(fileName) {
   return response.json();
 }
 
+
+function getRoles(person) {
+  const roles = Array.isArray(person.roles)
+    ? person.roles
+    : [person.role];
+
+  return [...new Set(
+    roles.filter(role => roleLabels[role])
+  )];
+}
+
+
 function normalizeXId(value) {
   return String(value || "").trim().replace(/^@/, "");
 }
@@ -55,6 +67,11 @@ function renderCreator(eventData) {
       ? eventData.creatorXIds[0]
       : eventData.creatorXId
   );
+
+const contactId = $("#contact-x-id");
+if (contactId) {
+  contactId.textContent = id ? `@${id}` : "@X ID";
+}
 
   if (!id) return;
 
@@ -103,10 +120,10 @@ function renderSummary() {
   };
 
   participants.forEach(person => {
-    if (Object.hasOwn(counts, person.role)) {
-      counts[person.role]++;
-    }
+  getRoles(person).forEach(role => {
+    counts[role]++;
   });
+});
 
   const summary = $("#summary");
   summary.replaceChildren();
@@ -180,12 +197,17 @@ function makeParticipantCard(person) {
   const meta = document.createElement("div");
   meta.className = "participant-meta";
 
-  const role = document.createElement("span");
-  role.className = `role-badge role-${person.role}`;
-  role.textContent = roleLabels[person.role] || "役割未設定";
-  meta.append(role);
+  
+const roles = getRoles(person);
 
-  if (person.role === "cosplay" && person.character) {
+roles.forEach(roleName => {
+  const role = document.createElement("span");
+  role.className = `role-badge role-${roleName}`;
+  role.textContent = roleLabels[roleName];
+  meta.append(role);
+});
+
+if (roles.includes("cosplay") && person.character) {
     const character = document.createElement("span");
     character.className = "character-badge";
     character.textContent = person.character;
@@ -220,7 +242,8 @@ function getFilteredParticipants() {
   return participants
     .filter(person => {
       const matchesRole =
-        activeRole === "all" || person.role === activeRole;
+      activeRole === "all" ||
+      getRoles(person).includes(activeRole);
 
       const searchable = [
         person.name,
@@ -235,18 +258,14 @@ function getFilteredParticipants() {
       return matchesRole &&
         (!query || searchable.includes(query));
     })
-    .sort((a, b) => {
-      const roleDiff =
-        roleOrder.indexOf(a.role) -
-        roleOrder.indexOf(b.role);
+    
+.sort((a, b) => {
+  const nameA = (a.reading || a.name || "").trim();
+  const nameB = (b.reading || b.name || "").trim();
 
-      if (activeRole === "all" && roleDiff !== 0) {
-        return roleDiff;
-      }
+  return nameA.localeCompare(nameB, "ja");
+});
 
-      return (a.sortOrder ?? 9999) -
-        (b.sortOrder ?? 9999);
-    });
 }
 
 function renderParticipants() {
@@ -298,8 +317,32 @@ function setupFilters() {
   });
 }
 
+
+async function copyHashtag() {
+  const hashtag = $("#event-name").textContent.trim();
+  if (!hashtag) return;
+
+  try {
+    await navigator.clipboard.writeText(hashtag);
+
+    const button = $("#event-name");
+    const originalText = button.textContent;
+
+    button.textContent = "コピーしました！ ✓";
+
+    setTimeout(() => {
+      button.textContent = originalText;
+    }, 1500);
+  } catch (error) {
+    alert("コピーできませんでした。ハッシュタグを長押ししてコピーしてください。");
+  }
+}
+
+
 async function init() {
   setupFilters();
+
+  $("#event-name").addEventListener("click", copyHashtag);
 
   try {
     const [eventData, participantData] = await Promise.all([

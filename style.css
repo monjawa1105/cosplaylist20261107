@@ -178,3 +178,110 @@ a.participant-card:hover { border-color: #aab7c8; transform: translateY(-1px); }
 .profile-button {
   flex: 1 0 100%;
 }
+
+/* 作成者・連絡先エリア */
+
+.creator-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.contact-notice {
+  margin: 0;
+  color: #aeb7c8;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+#contact-x-id {
+  color: #8ab4ff;
+  font-weight: 700;
+}
+
+.creator-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.creator-label {
+  color: #8d98aa;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+#creator-name {
+  color: #f5f7fb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#creator-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #354052;
+  border-radius: 999px;
+  color: #f5f7fb;
+  font-size: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#creator-links a:hover {
+  background: #202735;
+}
+
+/* 併せ名を大きく表示 */
+.event-name {
+  font-size: clamp(28px, 6vw, 44px);
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* 「参加者一覧」はサブ見出しに */
+#event-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+
+.hashtag-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: clamp(28px, 6vw, 44px);
+  font-weight: 800;
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.hashtag-button::after {
+  content: "⧉";
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #8ab4ff;
+}
+
+.hashtag-button:hover {
+  opacity: 0.8;
+}
+
+.hashtag-button:focus-visible {
+  outline: 2px solid #8ab4ff;
+  outline-offset: 5px;
+  border-radius: 4px;
+}

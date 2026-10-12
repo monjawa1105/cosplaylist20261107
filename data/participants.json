@@ -2,9 +2,239 @@
   {
     "xId": "monjawa_cos",
     "name": "もんじゃわ",
-    "reading": "もんじゃわ",
+    "reading": "モンジャワ",
     "role": "cosplay",
-    "character": "ギロチン",
-    "sortOrder": 1
+    "character": "ギロチン"
+  },
+  {
+    "xId": "acyamicyami",
+    "name": "あーちゃみ",
+    "reading": "アーチャミ",
+    "role": "cosplay",
+    "character": "インディビリア"
+  },
+  {
+    "xId": "seiya_gio_dio",
+    "name": "星野ハルカ",
+    "reading": "セイヤハルカ",
+    "role": "cosplay",
+    "character": "ヘルム"
+  },
+  {
+    "xId": "looooove74",
+    "name": "ぴい☆",
+    "reading": "ピイ",
+    "role": "cosplay",
+    "character": "アルカナ"
+  },
+  {
+    "xId": "haru24565563",
+    "name": "マリ",
+    "reading": "マリ",
+    "role": "cosplay",
+    "character": "ノベル"
+  },
+  {
+    "xId": "Mihieinori",
+    "name": "美冷 祈",
+    "reading": "ミヒエイノリ",
+    "role": "cosplay",
+    "character": "ラプンツェル（パイオニア）"
+  },
+  {
+    "xId": "tuno_emon",
+    "name": "ツノたろ！",
+    "reading": "ツノタロ",
+    "role": "cosplay",
+    "character": "イサベル"
+  },
+  {
+    "xId": "1106_shiratama",
+    "name": "しらたまみくる🐈‍⬛",
+    "reading": "シラタマミクル",
+    "role": "cosplay",
+    "character": "黒紅蓮"
+  },
+  {
+    "xId": "Kebavnissan",
+    "name": "ケバブ兄さん",
+    "reading": "ケバブニイサン",
+    "role": "cosplay",
+    "character": "アンダーソン"
+  },
+  {
+    "xId": "",
+    "name": "裕",
+    "reading": "",
+    "role": "cosplay",
+    "character": "ウンファ"
+  },
+  {
+    "xId": "slyblue_hobby",
+    "name": "湊",
+    "reading": "ミナト",
+    "role": "cosplay",
+    "character": "ノワール"
+  },
+  {
+    "xId": "",
+    "name": "みお",
+    "reading": "ミオ",
+    "role": "cosplay",
+    "character": "クラウン"
+  },
+  {
+    "xId": "chiipote_potato",
+    "name": "ちいぽて",
+    "reading": "チイポテ",
+    "role": "cosplay",
+    "character": "ドロシー"
+  },
+  {
+    "xId": "pengin_big",
+    "name": "鋭蘭",
+    "reading": "エイラン",
+    "role": "cosplay",
+    "character": "レッドフード"
+  },
+  {
+    "xId": "dennn_cos",
+    "name": "でん",
+    "reading": "デン",
+    "role": "cosplay",
+    "character": "ミハラ"
+  },
+  {
+    "xId": "cos_shirako",
+    "name": "しらこ",
+    "reading": "シラコ",
+    "role": "cosplay",
+    "character": "初期ラピ"
+  },
+  {
+    "xId": "noinoimn",
+    "name": "のい*乃依",
+    "reading": "ノイ",
+    "role": "cosplay",
+    "character": "ハラン"
+  },
+  {
+    "xId": "taigachan_cos",
+    "name": "たいがちゃん",
+    "reading": "タイガチャン",
+    "role": "cosplay",
+    "character": "ネオネオン"
+  },
+  {
+    "xId": "mrkm___u",
+    "name": "村上㍉🥩",
+    "reading": "ムラカミミリ",
+    "role": "cosplay",
+    "character": "チャイム"
+  },
+  {
+    "xId": "",
+    "name": "まひろ",
+    "reading": "マヒロ",
+    "role": "cosplay",
+    "character": "ジャッカル"
+  },
+  {
+    "xId": "Lapin00515",
+    "name": "かおるん",
+    "reading": "カオルン",
+    "role": "cosplay",
+    "character": "ユニ"
+  },
+  {
+    "xId": "renji_cos",
+    "name": "れんじ🪷",
+    "reading": "レンジ",
+    "role": "cosplay",
+    "character": "キロ"
+  },
+  {
+    "xId": "chorimi_0812",
+    "name": "ちょりみ",
+    "reading": "チョリミ",
+    "role": "cosplay",
+    "character": "スノーホワイト（パイオニア）"
+  },
+  {
+    "xId": "talos_nikke",
+    "name": "タロス",
+    "reading": "タロス",
+    "role": "cosplay",
+    "character": "ヨハン"
+  },
+  {
+    "xId": "AMANIDA_cos",
+    "name": "あまにだ",
+    "reading": "アマニダ",
+    "role": "cosplay",
+    "character": "スターアニス"
+  },
+  {
+    "xId": "SakuRen_ren",
+    "name": "朔蓮",
+    "reading": "サクレン",
+    "role": "cosplay",
+    "character": "ナユタ"
+  },
+  {
+    "xId": "sayukichi227",
+    "name": "黒瀬紗雪",
+    "reading": "クロセサユキ",
+    "role": "cosplay",
+    "character": "ベヒモス"
+  },
+  {
+    "xId": "at_nyannyan",
+    "name": "@娘々🐾",
+    "reading": "アットマークニャンニャン",
+    "role": "cosplay",
+    "character": "ニヒリスター"
+  },
+  {
+    "xId": "tokitugukosuiwi",
+    "name": "ときつぐ🌸🐙",
+    "reading": "トキツグ",
+    "role": "cosplay",
+    "character": "リバーレリオ"
+  },
+  {
+    "xId": "1831JCM1879",
+    "name": "398(さくや)🌸",
+    "reading": "サクヤ",
+    "role": "cosplay",
+    "character": "旧ラプンツェル"
+  },
+  {
+    "xId": "11kkr18",
+    "name": "かけるちゃん🧊",
+    "reading": "カケルチャン",
+    "role": "cosplay",
+    "character": "プリカ"
+  },
+  {
+    "xId": "tetoteto_cos",
+    "name": "てと🐣",
+    "reading": "テト",
+    "role": "cosplay",
+    "character": "レヴィアタン"
+  },
+  {
+    "xId": "AIORI2525",
+    "name": "愛織",
+    "reading": "アイオリ",
+    "role": "cosplay",
+    "character": "リトルマーメイド"
+  },
+  {
+    "xId": "sakaten0149",
+    "name": "サカテン",
+    "reading": "サカテン",
+    "role": "cosplay",
+    "character": "タロス"
   }
 ]
