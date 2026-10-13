@@ -25,13 +25,15 @@ cosplay-meetup-site/
 ### 2. `data/participants.json`
 参加者ごとに1つのオブジェクトを追加します。
 
-- `xId`: X ID（プロフィールリンクとアイコン取得に使用）
+- `xId`: X ID（プロフィールリンク取得に使用）
 - `name`: 表示名
 - `reading`: 読み方
 - `role`: `cosplay` / `camera` / `assistant` のいずれか
-- `character`: コスプレ参加者のキャラクター名。その他の役割は空文字でOK
+（兼任の場合は`role`ではなく`roles`を使用　書き方例： ["cosplay","camera"]）
+- `character`: コスプレ参加者のキャラクター名。
+- `avatarUrl`: Xのアイコン画像URL
 
-X IDがない場合は `""` にしてください。アイコンが取得できない場合は名前の1文字を表示します。
+情報がない場合は `""` にしてください。アイコンが取得できない場合は名前の1文字を表示します。
 
 ## ローカルでの確認
 
