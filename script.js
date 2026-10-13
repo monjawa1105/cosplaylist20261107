@@ -48,12 +48,16 @@ function xProfileUrl(xId) {
   return id ? `https://x.com/${encodeURIComponent(id)}` : "";
 }
 
+// unavatarを使ったアイコン画像取得
+/*  
 function avatarUrl(xId) {
   const id = normalizeXId(xId);
   return id
     ? `https://unavatar.io/x/${encodeURIComponent(id)}`
     : "";
 }
+*/
+
 
 // 制作者情報：X IDは1つだけ表示
 function renderCreator(eventData) {
@@ -140,10 +144,11 @@ function renderSummary() {
   });
 }
 
+//直接リンク指定
 function makeAvatar(person) {
-  const id = normalizeXId(person.xId);
+  const imageUrl = String(person.avatarUrl || "").trim();
 
-  if (!id) {
+  if (!imageUrl) {
     return makeFallbackAvatar(person.name);
   }
 
@@ -152,7 +157,7 @@ function makeAvatar(person) {
   image.alt = "";
   image.loading = "lazy";
   image.decoding = "async";
-  image.src = avatarUrl(id);
+  image.src = imageUrl;
 
   image.addEventListener("error", () => {
     image.replaceWith(makeFallbackAvatar(person.name));
@@ -236,15 +241,24 @@ if (roles.includes("cosplay") && person.character) {
   return card;
 }
 
-function getFilteredParticipants() {
-  const query = searchText.trim().toLocaleLowerCase("ja");
+// 検索読みひらがな追加
+function normalizeSearchText(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    // ひらがなをカタカナに変換
+    .replace(/[\u3041-\u3096]/g, char =>
+      String.fromCharCode(char.charCodeAt(0) + 0x60)
+    );
+}
 
+function getFilteredParticipants() {
+  const query = normalizeSearchText(searchText);
   return participants
     .filter(person => {
       const matchesRole =
-      activeRole === "all" ||
-      getRoles(person).includes(activeRole);
-
+        activeRole === "all" ||
+        getRoles(person).includes(activeRole);
       const searchable = [
         person.name,
         person.reading,
@@ -252,21 +266,18 @@ function getFilteredParticipants() {
         person.xId
       ]
         .filter(Boolean)
-        .join(" ")
-        .toLocaleLowerCase("ja");
-
+        .map(normalizeSearchText)
+        .join(" ");
       return matchesRole &&
         (!query || searchable.includes(query));
     })
-    
-.sort((a, b) => {
-  const nameA = (a.reading || a.name || "").trim();
-  const nameB = (b.reading || b.name || "").trim();
-
-  return nameA.localeCompare(nameB, "ja");
-});
-
+    .sort((a, b) => {
+      const nameA = (a.reading || a.name || "").trim();
+      const nameB = (b.reading || b.name || "").trim();
+      return nameA.localeCompare(nameB, "ja");
+    });
 }
+
 
 function renderParticipants() {
   const list = $("#participant-list");
