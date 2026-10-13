@@ -1,240 +1,602 @@
 [
   {
     "xId": "monjawa_cos",
-    "name": "もんじゃわ",
+    "name": "もんじゃわ☠️",
     "reading": "モンジャワ",
     "role": "cosplay",
-    "character": "ギロチン"
+    "character": "ギロチン",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/2102630433313923072/mKkmXjZa_400x400.jpg"
   },
   {
     "xId": "acyamicyami",
-    "name": "あーちゃみ",
+    "name": "あーちゃみ🌺🧚‍♂️",
     "reading": "アーチャミ",
     "role": "cosplay",
-    "character": "インディビリア"
+    "character": "インディビリア",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2092863949008228352/KiR_eQC-_400x400.jpg"
   },
   {
     "xId": "seiya_gio_dio",
-    "name": "星野ハルカ",
+    "name": "星野ハルカ🌠",
     "reading": "セイヤハルカ",
     "role": "cosplay",
-    "character": "ヘルム"
+    "character": "ヘルム",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2085932251754496000/JQ2DQpRw_400x400.jpg"
   },
   {
     "xId": "looooove74",
     "name": "ぴい☆",
     "reading": "ピイ",
     "role": "cosplay",
-    "character": "アルカナ"
+    "character": "アルカナ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2006029852508581888/rnwML9z__400x400.jpg"
   },
   {
     "xId": "haru24565563",
-    "name": "マリ",
+    "name": "マリ11",
     "reading": "マリ",
     "role": "cosplay",
-    "character": "ノベル"
+    "character": "ノベル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2082221850667761664/QiAWGu___400x400.jpg"
   },
   {
     "xId": "Mihieinori",
-    "name": "美冷 祈",
+    "name": "美冷 祈⚜️/Mihie Inori🪞⚜️🪞",
     "reading": "ミヒエイノリ",
     "role": "cosplay",
-    "character": "ラプンツェル（パイオニア）"
+    "character": "ラプンツェル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2084420561430839296/logPm1Bh_400x400.jpg"
   },
   {
     "xId": "tuno_emon",
-    "name": "ツノたろ！",
+    "name": "ツノたろ！ ( ｡ᐛ｡)ﾍｹｯ!!!",
     "reading": "ツノタロ",
     "role": "cosplay",
-    "character": "イサベル"
+    "character": "イサベル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1796540444438130688/2IHpcCWc_400x400.jpg"
   },
   {
     "xId": "1106_shiratama",
     "name": "しらたまみくる🐈‍⬛",
     "reading": "シラタマミクル",
     "role": "cosplay",
-    "character": "黒紅蓮"
+    "character": "紅蓮：ブラックシャドウ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2076876664848687104/JdIfgQTL_400x400.jpg"
   },
   {
     "xId": "Kebavnissan",
-    "name": "ケバブ兄さん",
-    "reading": "ケバブニイサン",
+    "name": "𝑨𝑹𝑰 / ケバブ兄さん🥙",
+    "reading": "アリ / ケバブニイサン",
     "role": "cosplay",
-    "character": "アンダーソン"
+    "character": "アンダーソン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2040083855626149888/wANvKFMI_400x400.jpg"
   },
   {
     "xId": "",
     "name": "裕",
     "reading": "",
     "role": "cosplay",
-    "character": "ウンファ"
+    "character": "ウンファ",
+    "avatarUrl":""
   },
   {
     "xId": "slyblue_hobby",
-    "name": "湊",
+    "name": "湊(みなと)",
     "reading": "ミナト",
     "role": "cosplay",
-    "character": "ノワール"
+    "character": "ノワール",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2094634941573427200/3YN6wrcP_400x400.jpg"
   },
   {
     "xId": "",
     "name": "みお",
     "reading": "ミオ",
     "role": "cosplay",
-    "character": "クラウン"
+    "character": "クラウン",
+    "avatarUrl":""
   },
   {
     "xId": "chiipote_potato",
-    "name": "ちいぽて",
+    "name": "ちいぽて🎀",
     "reading": "チイポテ",
     "role": "cosplay",
-    "character": "ドロシー"
+    "character": "ドロシー",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2045078180927778818/x3EfYn3b_400x400.jpg"
   },
   {
     "xId": "pengin_big",
     "name": "鋭蘭",
     "reading": "エイラン",
     "role": "cosplay",
-    "character": "レッドフード"
+    "character": "レッドフード",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2102162618907811840/x7H4ss19_400x400.jpg"
   },
   {
     "xId": "dennn_cos",
     "name": "でん",
     "reading": "デン",
     "role": "cosplay",
-    "character": "ミハラ"
+    "character": "ミハラ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2061362703940354048/0FK3wbjS_400x400.jpg"
   },
   {
     "xId": "cos_shirako",
-    "name": "しらこ",
+    "name": "しらこ🙈🔥🏰",
     "reading": "シラコ",
     "role": "cosplay",
-    "character": "初期ラピ"
+    "character": "初期ラピ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2051300696834928640/ZzpbHG34_400x400.jpg"
   },
   {
     "xId": "noinoimn",
     "name": "のい*乃依",
     "reading": "ノイ",
     "role": "cosplay",
-    "character": "ハラン"
+    "character": "ハラン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1853092632618262528/fvwoDUXi_400x400.jpg"
   },
   {
     "xId": "taigachan_cos",
-    "name": "たいがちゃん",
+    "name": "たいがちゃん🐯🩵",
     "reading": "タイガチャン",
     "role": "cosplay",
-    "character": "ネオネオン"
+    "character": "ネオネオン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2077908298612002816/qe2fRG-z_400x400.jpg"
   },
   {
     "xId": "mrkm___u",
     "name": "村上㍉🥩",
     "reading": "ムラカミミリ",
     "role": "cosplay",
-    "character": "チャイム"
+    "character": "チャイム",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2013243047874584576/pwGlJ87P_400x400.jpg"
   },
   {
     "xId": "",
     "name": "まひろ",
     "reading": "マヒロ",
     "role": "cosplay",
-    "character": "ジャッカル"
+    "character": "ジャッカル",
+    "avatarUrl":""
   },
   {
     "xId": "Lapin00515",
     "name": "かおるん",
     "reading": "カオルン",
     "role": "cosplay",
-    "character": "ユニ"
+    "character": "ユニ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2081052241310666752/4ODMROwY_400x400.jpg"
   },
   {
     "xId": "renji_cos",
     "name": "れんじ🪷",
     "reading": "レンジ",
     "role": "cosplay",
-    "character": "キロ"
+    "character": "キロ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1968255840441466880/8yAcSp61_400x400.jpg"
   },
   {
     "xId": "chorimi_0812",
     "name": "ちょりみ",
     "reading": "チョリミ",
     "role": "cosplay",
-    "character": "スノーホワイト（パイオニア）"
+    "character": "スノーホワイト（パイオニア）",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1664971380465741824/BwBLWMaK_400x400.jpg"
   },
   {
-    "xId": "talos_nikke",
-    "name": "タロス",
-    "reading": "タロス",
+    "xId": "3nm_cos__",
+    "name": "雨宮みなも🌧💧",
+    "reading": "アマミヤミナモ",
     "role": "cosplay",
-    "character": "ヨハン"
+    "character": "ヨハン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2086432020960575488/VeJcDb52_400x400.jpg"
   },
   {
     "xId": "AMANIDA_cos",
     "name": "あまにだ",
     "reading": "アマニダ",
     "role": "cosplay",
-    "character": "スターアニス"
+    "character": "アニス：スター",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2107945449017749504/4roeE4r2_400x400.jpg"
   },
   {
     "xId": "SakuRen_ren",
-    "name": "朔蓮",
+    "name": "朔蓮(さくれん)",
     "reading": "サクレン",
     "role": "cosplay",
-    "character": "ナユタ"
+    "character": "ナユタ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1742868437612081152/6CMCPwXf_400x400.jpg"
   },
   {
     "xId": "sayukichi227",
     "name": "黒瀬紗雪",
     "reading": "クロセサユキ",
     "role": "cosplay",
-    "character": "ベヒモス"
+    "character": "ベヒモス",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2066818113484845056/Hh-SPNst_400x400.jpg"
   },
   {
     "xId": "at_nyannyan",
     "name": "@娘々🐾",
     "reading": "アットマークニャンニャン",
     "role": "cosplay",
-    "character": "ニヒリスター"
+    "character": "ニヒリスター",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2096133004246831104/WT46_Oat_400x400.jpg"
   },
   {
     "xId": "tokitugukosuiwi",
     "name": "ときつぐ🌸🐙",
     "reading": "トキツグ",
     "role": "cosplay",
-    "character": "リバーレリオ"
+    "character": "リバーレリオ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2082707966902562816/7zzpm-gd_400x400.jpg"
   },
   {
     "xId": "1831JCM1879",
     "name": "398(さくや)🌸",
     "reading": "サクヤ",
     "role": "cosplay",
-    "character": "旧ラプンツェル"
+    "character": "ラプンツェル：ピュアグレイス",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1743858304873574400/kCZHjO21_400x400.jpg"
   },
   {
     "xId": "11kkr18",
     "name": "かけるちゃん🧊",
     "reading": "カケルチャン",
     "role": "cosplay",
-    "character": "プリカ"
+    "character": "プリカ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2046837429295071232/JkNg76Fe_400x400.jpg"
   },
   {
     "xId": "tetoteto_cos",
     "name": "てと🐣",
     "reading": "テト",
     "role": "cosplay",
-    "character": "レヴィアタン"
+    "character": "レヴィアタン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2103424451820027904/OMpJ9UU7_400x400.jpg"
   },
   {
     "xId": "AIORI2525",
     "name": "愛織",
     "reading": "アイオリ",
     "role": "cosplay",
-    "character": "リトルマーメイド"
+    "character": "リトルマーメイド",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2101658781025533953/orcHdlhW_400x400.jpg"
   },
   {
     "xId": "sakaten0149",
     "name": "サカテン",
     "reading": "サカテン",
     "role": "cosplay",
-    "character": "タロス"
+    "character": "タロス",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2079512425175592960/_4odkmRG_400x400.jpg"
+  },
+  {
+    "xId": "kohako_22",
+    "name": "胡覇",
+    "reading": "コハ",
+    "role": "cosplay",
+    "character": "ベスティー",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2073097138578542592/fh_6wkwM_400x400.jpg"
+  },
+  {
+    "xId": "cos_mtg",
+    "name": "ﾏﾂｸ\"🧠",
+    "reading": "マツグ",
+    "role": "cosplay",
+    "character": "トロニー",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2097681863758495744/SbFzWsav_400x400.jpg"
+  },
+  {
+    "xId": "rea_rarest",
+    "name": "れあ",
+    "reading": "レア",
+    "role": "cosplay",
+    "character": "バイパー",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2096935690491809792/ELzrUGqH_400x400.jpg"
+  },
+  {
+    "xId": "tokaku966",
+    "name": "兎角",
+    "reading": "トカク",
+    "role": "cosplay",
+    "character": "グレイブ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2100003479737819136/KN3tzGGm_400x400.jpg"
+  },
+  {
+    "xId": "sachibudou",
+    "name": "さちぶどう",
+    "reading": "サチブドウ",
+    "role": "cosplay",
+    "character": "バハムート",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1196423282032951296/qGfVU-Py_400x400.jpg"
+  },
+  {
+    "xId": "theoichii",
+    "name": "てお🍓",
+    "reading": "テオ",
+    "role": "cosplay",
+    "character": "ジズ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2102412213189554176/2pIuFiCz_400x400.jpg"
+  },
+  {
+    "xId": "9_6ali",
+    "name": "ALI",
+    "reading": "アリ",
+    "role": "cosplay",
+    "character": "ファントム",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2100968215681847296/Rb-esbtL_400x400.jpg"
+  },
+  {
+    "xId": "chuken_coco",
+    "name": "忠犬ここ⁺꒰ ՞•ﻌ•՞ ꒱🐾",
+    "reading": "チュウケンココ",
+    "role": "cosplay",
+    "character": "スノーホワイト：イノセントデイズ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2103456754067730432/8Q6kSXS2_400x400.jpg"
+  },
+  {
+    "xId": "Yukinozomi3",
+    "name": "のぞみ",
+    "reading": "ノゾミ",
+    "role": "cosplay",
+    "character": "ブラン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1919054101670969344/G5GaRhBs_400x400.jpg"
+  },
+  {
+    "xId": "Re1__028",
+    "name": "Re1",
+    "reading": "レイ",
+    "role": "cosplay",
+    "character": "ミント",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2003077428307181568/mtSkTN3A_400x400.jpg"
+  },
+  {
+    "xId": "_Mikurucos_",
+    "name": "しもつきみくる🌸",
+    "reading": "シモツキミクル",
+    "role": "cosplay",
+    "character": "アリス",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2102039780892839936/lR9wFMXU_400x400.jpg"
+  },
+  {
+    "xId": "9Ru_Me",
+    "name": "͟𝙆͟𝙐͟𝙍͟𝙐͟𝙈͟𝙄͟",
+    "reading": "クルミ",
+    "role": "cosplay",
+    "character": "メイデン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2104743661426929664/3ArwpG8V_400x400.jpg"
+  },
+  {
+    "xId": "fuco_cos",
+    "name": "ふーこ",
+    "reading": "フーコ",
+    "role": "cosplay",
+    "character": "ネオン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1984475967856001027/cbsD9YfT_400x400.jpg"
+  },
+  {
+    "xId": "eventsuzu",
+    "name": "φ(。。)ｽｽﾞ",
+    "reading": "スズ",
+    "role": "cosplay",
+    "character": "バーニンガム",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1955531463933431809/OzbkHy8K_400x400.jpg"
+  },
+  {
+    "xId": "28tenmu",
+    "name": "天武 🐏",
+    "reading": "テンム",
+    "role": "cosplay",
+    "character": "アニス",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1896473614725369856/5NZJ1_Nr_400x400.jpg"
+  },
+  {
+    "xId": "ohns_pypy",
+    "name": "ひなぎ",
+    "reading": "ヒナギ",
+    "role": "cosplay",
+    "character": "グレーテル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1993627931160244224/o74CQiso_400x400.jpg"
+  },
+  {
+    "xId": "mikisuke_ej",
+    "name": "みきすけ",
+    "reading": "ミキスケ",
+    "role": "cosplay",
+    "character": "ドバン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2107615852199890944/UsjDT7uf_400x400.jpg"
+  },
+  {
+    "xId": "sakumi_rose",
+    "name": "紫紺　咲美",
+    "reading": "シコンサクミ",
+    "role": "cosplay",
+    "character": "シンデレラ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2004317788438179840/dcbsnE1b_400x400.jpg"
+  },
+  {
+    "xId": "ennmachann_vv",
+    "name": "えん魔ちゃん",
+    "reading": "エンマチャン",
+    "role": "cosplay",
+    "character": "紅蓮",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2085741546180349952/t2lH_HeR_400x400.jpg"
+  },
+  {
+    "xId": "jewelchange",
+    "name": "櫻井樹樹",
+    "reading": "サクライイツキ",
+    "role": "cosplay",
+    "character": "クロウ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2089717246620999680/-dXN-PX2_400x400.jpg"
+  },
+  {
+    "xId": "__amacyan",
+    "name": "ﾕｳﾎ🪽",
+    "reading": "ユウホ",
+    "role": "cosplay",
+    "character": "ラピ：レッドフード",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2054912423971426304/SKp9odoj_400x400.jpg"
+  },
+  {
+    "xId": "midoriironodoa2",
+    "name": "おせちつむぎ",
+    "reading": "オセチツムギ",
+    "role": "cosplay",
+    "character": "エレグ",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2071057702084882432/tSMHPRF4_400x400.jpg"
+  },
+  {
+    "xId": "dageyyds",
+    "name": "大哥@アニキ",
+    "reading": "アニキ",
+    "role": "cosplay",
+    "character": "レーベル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2084352063010635776/mtWpuXFY_400x400.jpg"
+  },
+  {
+    "xId": "yonaginagi_",
+    "name": "夜凪なぎ",
+    "reading": "ヨナギナギ",
+    "role": "cosplay",
+    "character": "ヘンゼル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2109305229250641920/pxjZlJDa_400x400.jpg"
+  },
+  {
+    "xId": "nununu4862",
+    "name": "よしか🐢",
+    "reading": "ヨシカ",
+    "role": "cosplay",
+    "character": "リリーバイス",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2028383915581509632/gTSaR2dT_400x400.jpg"
+  },
+  {
+    "xId": "nyansou",
+    "name": "にゃん相学",
+    "reading": "ニャンソウガク",
+    "role": "cosplay",
+    "character": "ハンソン",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2108893950526541824/kb24Q6-m_400x400.jpg"
+  },
+  {
+    "xId": "cesi_bd12",
+    "name": "cesi",
+    "reading": "セシ",
+    "role": "camera",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1195690821044977664/eQ-TPdci_400x400.png"
+  },
+  {
+    "xId": "Lynx_15",
+    "name": "ラヴィラヴィ@",
+    "reading": "ラヴィラヴィ",
+    "role": "camera",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1542048520676421638/d6X5PR1T_400x400.jpg"
+  },
+  {
+    "xId": "brabhamBT46B",
+    "name": "魎皇鬼(りょうおうき)🌽 🚑 🌸🎪",
+    "reading": "リョウオウキ",
+    "role": "camera",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1974776950578388993/wVnvi7Vz_400x400.jpg"
+  },
+  {
+    "xId": "Kei_Camekoguy",
+    "name": "𝙺𝚎𝚒𓇼𓆡𓆉",
+    "reading": "ケイ",
+    "role": "camera",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1753433521815769088/DyPnLO26_400x400.jpg"
+  },
+  {
+    "xId": "creta8v",
+    "name": "鳩宿 くれた",
+    "reading": "ハトヤドクレタ",
+    "role": "camera",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1755864167888912384/qUUS18-9_400x400.jpg"
+  },
+  {
+    "xId": "SP_captain",
+    "name": "特務大尉📸",
+    "reading": "トクムタイイ",
+    "role": "camera",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2031351485112659974/khFzY4BZ_400x400.jpg"
+  },
+  {
+    "xId": "toro_0_0",
+    "name": "とろ",
+    "reading": "トロ",
+    "roles": ["cosplay","camera"],
+    "character": "オスワルド",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1753800750394953728/xr7_oYxy_400x400.jpg"
+  },
+  {
+    "xId": "oxm46_6",
+    "name": "花乃 澪🦙💚",
+    "reading": "ハナノミオ",
+    "role": "assistant",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2089865056804827136/Y376-IP9_400x400.jpg"
+  },
+  {
+    "xId": "souko0ura",
+    "name": "折れ線",
+    "reading": "オレセン",
+    "role": "assistant",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1901031772546363392/Ls2WafJf_400x400.jpg"
+  },
+  {
+    "xId": "HelenCosplay30",
+    "name": "Helen",
+    "reading": "ヘレン",
+    "role": "assistant",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2002320531870396418/dvyE3abR_400x400.jpg"
+  },
+  {
+    "xId": "3939_DukaDuka",
+    "name": "づか",
+    "reading": "ヅカ",
+    "role": "assistant",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/974806698220167168/vVS-D_Lo_400x400.jpg"
+  },
+  {
+    "xId": "komakoma_3535",
+    "name": "真狛 こま",
+    "reading": "マコマコマ",
+    "role": "cosplay",
+    "character": "セシル",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/2108720547224035328/OqI0VcYJ_400x400.jpg"
+  },
+  {
+    "xId": "tsuvi1120",
+    "name": "つばさ📸",
+    "reading": "ツバサ",
+    "role": "assistant",
+    "character": "",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1590922358294183938/iOh5A6kJ_400x400.jpg"
+  },
+  {
+    "xId": "Marnya01",
+    "name": "まーにゃ",
+    "reading": "マーニャ",
+    "role": "cosplay",
+    "character": "モダニア",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1028622353591296001/LoDsI5og_400x400.jpg"
+  },
+  {
+    "xId": "gamasanMk2",
+    "name": "ガマさん🍃𓆏",
+    "reading": "ガマサン",
+    "role": "cosplay",
+    "character": "ノア",
+    "avatarUrl":"https://pbs.twimg.com/profile_images/1873546909027299328/v2lhNUm6_400x400.jpg"
   }
 ]
