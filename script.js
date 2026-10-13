@@ -48,6 +48,27 @@ function xProfileUrl(xId) {
   return id ? `https://x.com/${encodeURIComponent(id)}` : "";
 }
 
+function renderContactInfo(eventData) {
+  const container = $("#contact-x-id");
+  if (!container) return;
+
+  const xId = normalizeXId(eventData.contactXId);
+
+  if (!xId) {
+    container.textContent = "@X ID";
+    return;
+  }
+
+  const link = document.createElement("a");
+  link.href = xProfileUrl(xId);
+  link.textContent = `@${xId}`;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+
+  container.replaceChildren(link);
+}
+
+
 // unavatarを使ったアイコン画像取得
 /*  
 function avatarUrl(xId) {
@@ -72,11 +93,12 @@ function renderCreator(eventData) {
       : eventData.creatorXId
   );
 
+  /*
 const contactId = $("#contact-x-id");
 if (contactId) {
   contactId.textContent = id ? `@${id}` : "@X ID";
 }
-
+*/
   if (!id) return;
 
   const link = document.createElement("a");
@@ -366,9 +388,10 @@ async function init() {
       : [];
 
     renderCreator(eventData);
-    renderEvent(eventData);
-    renderSummary();
-    renderParticipants();
+renderContactInfo(eventData);
+renderEvent(eventData);
+renderSummary();
+renderParticipants();
 
   } catch (error) {
     console.error(error);
